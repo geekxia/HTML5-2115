@@ -1,0 +1,41 @@
+$c: red;
+
+.qf {
+  color: $c;
+  font-size: 30px;
+}
+
+.qf1 {
+  color: blue;
+}
+
+.qf2 {
+  color: orange;
+}
+
+.bg {
+  background: white;
+}
+
+.row {
+  span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+  }
+}
+
+.pages {
+  span {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  span.on {
+    background-color: orange;
+    color: white;
+  }
+}
